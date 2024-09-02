@@ -26,7 +26,8 @@ You'll need an existing pinecone index with your data stored as embeddings. An e
 3. **Step 3**: Choose the slack workspace to which you want to add the chat bot
 4. **Step 4**: Paste in the following manifest and edit the name of your app accordingly
 
-```display_information:
+```yaml
+display_information:
   name: [YOUR_APP_NAME_HERE]
 features:
   bot_user:
